@@ -4,12 +4,14 @@
     box-sizing:border-box;
     margin:0;
     padding: 0;
+    
 }
 /*aqui eu trabalho o cabeçalho*/
 body > header{
 background-color:#caac85;
 padding: 16px 0;
 color:#f5f6fa;
+
 }
 header .container{
     display: flex;
@@ -27,8 +29,9 @@ header li a{
     text-decoration: none;
 }
 .container{
-    width: 1366px;
+    width: 1288px;
     margin:0 auto;
+
 }
 /*aqui eu crio uma section para trabalhar as seções do html*/
 .articles{
@@ -38,7 +41,7 @@ justify-content:space-between;
 }
 .articles article img{
 /*height: 100px;*/
-width: 80%;
+width: 100%;
 }
 .articles article{
     width: 30%;
@@ -86,10 +89,12 @@ color: #077013;
 }
 section h2{
     font-size: 32px;
+    
 }
 /*aplicando cor de fundo nos textos*/
 #sports{
     background-color: rgba(0, 255, 0, 0.1);
+    
 }
 /*mundo a cor do fundo do botão*/
 #sports .articles article a{
@@ -105,11 +110,11 @@ section h2{
     background-color:rgb(245, 235, 225);
 }
 #entertainment .articles article a{
-    background-color: #461636;
+    background-color: #5db6df;
 }
 #technology{
     background-color:rgb(245, 168, 225);
 }
 #technology .articles article a{
-    background-color: #1b0303;
+    background-color: #ee0c88;
 }
